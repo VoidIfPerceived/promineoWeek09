@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-sm bg-dark container-fluid">
+        <div class="navbar-brand">
+            <img src="../images/generic-logo.jpg" alt="Generic brand photo" width="200px">
+        </div>
+        <div class="container-fluid-sm align-self-end" id="navbar">
+            <div class="navbar">
+                <ul class="navbar-nav nav-pills text-center">
+                    <li class="nav-item active margin">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item active margin">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="container-sm"></div>
+        <div class="align-self-center col-9">
+            <div id="email">
+                <label for="email-address" class="form-check-label">Email Address</label>
+                <input type="email" id="email-address" class="form-control" placeholder="name@example.com">
+            </div>
+            <div id="subject">
+                <label for="subject" class="col-form-label">Subject</label>
+                <input class="form-control" id="subject">
+            </div>
+            <div id="message">
+                <label for="message" class="form-check-label">Message</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <div id="rating">
+                <label for="rating" class="form-check-label">How would you rate our service on a scale of 1-10?</label>
+                <select id="rating" class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+            </div>
+            <div id="submit">
+                <button class="btn btn-dark" id="button">Submit</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>
